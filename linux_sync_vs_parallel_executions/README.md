@@ -28,4 +28,7 @@ find ./* -maxdepth 0 -type d -print | parallel git -C {} pull
 ## Results
 
 ![stacked bar graph](stacked_analysis_results.png)
+
 ## Conclusion
+
+Parallel execution is **6X** faster than serial execution on WSL windows
